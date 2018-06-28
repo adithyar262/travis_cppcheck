@@ -9,7 +9,7 @@ script:
   # Build and run this project
   - qmake
   - make
-  - ./travis_qmake_gcc_cpp98_cppcheck
+  - ./cppcheck
   # cppcheck (mild)
   - cppcheck --quiet . 
   # cppcheck that makes the Travis build fail
