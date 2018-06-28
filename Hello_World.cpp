@@ -9,9 +9,9 @@ the timers runs again and reaches when the count = 80.
 An LED connected to PC0(A0) is used to show the output.
 */
 
-#include <avr/io.h>
-#include <avr/interrupt.h>
-
+#include <avr/io>
+#include <avr/interrupt>
+using namespace std;
 //Variable to count the number of overflows  
 volatile uint8_t total_overflow; 
   
