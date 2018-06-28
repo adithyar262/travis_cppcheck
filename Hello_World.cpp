@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream.h>
 
 //C++98
 std::string f() {
