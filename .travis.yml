@@ -7,7 +7,7 @@ install:
 
 script: 
   # Build and run this project
-  - qmake ./travis_qmake_gcc_cpp98_cppcheck
+  - qmake travis_qmake_gcc_cpp98_cppcheck
   # cppcheck (mild)
   - cppcheck --quiet . 
   # cppcheck that makes the Travis build fail
